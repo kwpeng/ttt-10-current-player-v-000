@@ -1,6 +1,6 @@
 turn_count.each do |element|
   counter = 0
-  if 
+  
   
   
   
