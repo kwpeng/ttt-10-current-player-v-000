@@ -10,8 +10,8 @@ end
   
   def current_player(board)
   if turn_count % 2 == 0
-    board(array) = "X"
+    "X"
   else 
-    board(array) = "O"
+    "O"
   end
 end
