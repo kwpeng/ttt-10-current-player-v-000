@@ -7,7 +7,7 @@ board.each do |element|
   end
    puts #{counter}
 end
-  board
+  board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
   
 def current_player(board)
   if turn_count % 2 == 0
