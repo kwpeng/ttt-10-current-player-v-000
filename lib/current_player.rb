@@ -3,9 +3,9 @@ def turn_count(board)
 board.each do |element|
   if element == "X" || element == "O"
     counter += 1"
-    puts #{counter}"
+    puts "#{counter}"
   end
-   puts #{counter}
+   puts "#{counter}""
 end
   turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
   
