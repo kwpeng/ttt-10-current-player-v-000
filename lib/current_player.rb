@@ -4,6 +4,7 @@ board.each do |element|
   if element == "X" || element == "O"
     counter += 1
   end
+end
   
   
   def current_player(game_board)
@@ -11,7 +12,5 @@ board.each do |element|
     board(array) = "X"
   else 
     board(array) = "O"
-    
-  primary_colors.each do |color|
-  puts "Primary Color #{color} is #{color.length} letters long."
+  end
 end
