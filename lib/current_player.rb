@@ -1,4 +1,6 @@
-turn_count.each do |element|
+def turn_count(array)
+
+each do |element|
   counter = 0
   
   
