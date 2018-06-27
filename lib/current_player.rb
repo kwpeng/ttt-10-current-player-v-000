@@ -18,5 +18,3 @@ end
    puts "O"
   end
 end
-
-current_player(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
