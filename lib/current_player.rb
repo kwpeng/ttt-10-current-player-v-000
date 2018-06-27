@@ -9,11 +9,5 @@ board.each do |element|
 end
   turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
   
-def current_player(board)
-  if turn_count % 2 == 0
-    "X"
-  else 
-    "O"
-  end
-end
-end
+  
+ 
