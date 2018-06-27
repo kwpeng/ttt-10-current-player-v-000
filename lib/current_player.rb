@@ -5,7 +5,7 @@ board.each do |element|
     
     counter += 1
   end
-   puts "#{counter}""
+   puts "#{counter}"
 end
 end
   turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
