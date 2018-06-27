@@ -1,7 +1,7 @@
 def turn_count(array)
-
-each do |element|
   counter = 0
+board.each do |element|
+  
   
   
   
