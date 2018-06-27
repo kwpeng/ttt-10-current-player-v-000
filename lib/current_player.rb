@@ -5,9 +5,9 @@ board.each do |element|
     counter += 1
     puts #{counter}
   end
-  puts counter
+   puts #{counter}
 end
-  
+  board
   
 def current_player(board)
   if turn_count % 2 == 0
